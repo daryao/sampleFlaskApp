@@ -1,0 +1,28 @@
+body {
+  font-family:      Verdana, Geneva, Arial, sans-serif;
+  /* background-color: rgb(187, 214, 248); */
+}
+a {
+  text-decoration:  none; 
+  font-weight:      600; 
+}
+a:hover {
+  text-decoration:  underline;
+}
+a img {
+  border:           0;
+}
+.copyright {
+  font-size:        75%;
+  font-style:       italic;
+}
+.slogan {
+  font-size:        75%;
+  font-style:       italic;
+}
+.confirmentry {
+  font-weight:      600; 
+}
+.container {
+  padding: 3rem;
+}

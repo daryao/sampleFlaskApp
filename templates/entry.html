@@ -1,0 +1,31 @@
+
+{% extends 'base.html' %}
+
+{% block body %}
+
+
+<div class="container">
+    <div class="content">
+        <h2 class='is-large'>{{ the_title }}</h2>
+        <form method='POST' action='/search4'>
+            <div class="field">
+                <label class="label">Phrase:</label>
+                <div class="control">
+                    <input name='phrase' type='TEXT' >
+                </div>
+            </div>
+                
+            <div class="field">
+                <label class="label">Letters</label>
+                <div class="control">
+                    <input name='letters' type='TEXT'>
+                </div>
+            </div>
+            <p>When you're ready, click this button:</p>
+            <p><input  class="button is-primary" value='Do it!' type='SUBMIT'></p>
+        </form>
+    </div>
+  </div>
+
+
+{% endblock %}
